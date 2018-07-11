@@ -1,0 +1,17 @@
+{
+    "name": "starwarsquote",
+    "description": "Simple Starwars quote with node.JS",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Miguel Pereira",
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "starwars": "^1.0.0"
+    }
+}
