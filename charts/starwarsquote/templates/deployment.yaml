@@ -20,7 +20,7 @@ spec:
         release: {{ .Release.Name }}
     spec:
       imagePullSecrets:
-            - name: {{ .Values.image.pullSecret }}
+        - name: {{ .Values.image.pullSecret }}
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
