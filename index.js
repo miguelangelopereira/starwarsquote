@@ -11,7 +11,6 @@ var server = http.createServer(function(request, response) {
 
 });
 
-var port = process.env.PORT || 80;
-server.listen(port);
+server.listen(80);
 
 console.log("Server running at http://localhost:%d", port);
