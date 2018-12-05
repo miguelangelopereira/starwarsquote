@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: aks01acr.azurecr.io
+  repository:  
   tag: latest
   pullPolicy: IfNotPresent
   pullSecret: acr
